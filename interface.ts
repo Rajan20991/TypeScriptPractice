@@ -17,3 +17,21 @@ function greet(user:user): void{
 
 greet(tester);
 greet(tester2);
+
+//tuples
+
+let userDetails :[string,number,boolean?]=['tester',35,true];
+
+let userDetails2 :[string,number,boolean?]=['tester2',39];
+
+console.log(userDetails,userDetails2);
+
+function getCredentials(): [string, string] {
+  return ['sid@test.com', 'securePass'];
+}
+const [username, password] = getCredentials();
+console.log(username);
+console.log(password);
+
+
+
