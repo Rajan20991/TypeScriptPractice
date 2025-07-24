@@ -1,0 +1,16 @@
+let num : Array<number> = [1,2,3,4,5];
+let str : Array<string> =["abc","first","sec"];
+let str2 : String[] = ["abc","first","sec"];
+let str3 : string[] = ["abc","first","sec"];
+console.log(num.length);
+console.log(str2[1]);
+str.push("new");
+console.log(str2.push("new"));
+console.log(str3.push("new"));
+console.log(str2);
+console.log(str3);
+const nstr: string[]=str3.filter(u=>u.startsWith("n"));
+const nstr2=str3.filter(u=>u.length===3);
+console.log(nstr);
+console.log(str3);
+console.log(nstr2);

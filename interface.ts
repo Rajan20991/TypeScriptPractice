@@ -7,7 +7,7 @@ interface user{
 const tester : user ={name:'rajan',age:34};
 const tester2 : user ={name:'rajan2',age:35,isAge:true};
 
-function greet(user:user): void{
+function greets(user:user): void{
     console.log(`Hello ${user.name}`);
     console.log(`Hello ${user.name}, age ${user.age}`);
     if(user.isAge){
@@ -15,8 +15,8 @@ function greet(user:user): void{
 }
 }
 
-greet(tester);
-greet(tester2);
+greets(tester);
+greets(tester2);
 
 //tuples
 
