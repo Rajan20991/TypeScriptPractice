@@ -16,3 +16,12 @@ function getValue(obj:Userone,keys:UserKeys){
 
 const userValue = getValue(users,"name");
 console.log(userValue);
+
+const config = {
+  baseURL: "https://example.com",
+  retries: 3,
+};
+
+type ConfigType = typeof config;
+console.log( typeof config);
+
