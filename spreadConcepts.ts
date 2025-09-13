@@ -3,7 +3,7 @@ const arr2 = [...arr1, 4, 5]; // clone and add
 
 console.log(arr2); // [1, 2, 3, 4, 5]
 
-//Useful for merging arrays:
+//Useful for merging arrays: and objects
 
 const ab = [1, 2];
 const ba = [3, 4];

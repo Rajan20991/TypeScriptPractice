@@ -10,7 +10,7 @@ open(): void {
     console.log(`Navigating to ${this.url}`);
   }
 
-static close(pwd2:string):void{
+static close(pwd2:string):void{ 
     pwd2=LoginPage.pwd;
     console.log(pwd2);
 }
